@@ -18,5 +18,5 @@ final class LifecycleManager {
 }
 
 class AClock {
-    @Published var counter = [Int.random(in: 0...100), Int.random(in: 0...100), Int.random(in: 0...100)]
+    @Published var x = [0, 0, 0]
 }

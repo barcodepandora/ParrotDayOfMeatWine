@@ -9,23 +9,38 @@ import SwiftUI
 
 struct RaceView: View {
     
-    @State var thisIsAMan = LifecycleManager.shared.aClock.counter
-    var timer = Timer.publish(every: 0.01, on: .main, in: .common).autoconnect()
+    @State var theseAreTheLimit = LifecycleManager.shared.aClock.x
+    @State var theseAreTheRemain = [0, 0, 0]
+    @State var theseAreTheCounter = [0, 0, 0]
+    let AConstantForAnimation = 100.0
+    var indices = [0, 1, 2]
+    let thisIsARange = 0...182
+    var timerBarRace = Timer.publish(every: (1 / 100), on: .main, in: .common).autoconnect()
+    var timerRequest = Timer.publish(every: 2, on: .main, in: .common).autoconnect()
+//    var timerBarRace: Timer.TimerPublisher
+//    var timerRequest: Timer.TimerPublisher
+
+//    init () {
+//        timerBarRace = Timer.publish(every: (1 / AConstantForAnimation), on: .main, in: .common)
+//        timerBarRace.autoconnect()
+//        timerRequest = Timer.publish(every: 2, on: .main, in: .common)
+//        timerRequest.autoconnect()
+//    }
+    
     
     var body: some View {
         VStack {
-            BarRaceView(counter: thisIsAMan[0])
-                .onReceive(timer) { _ in
-                    thisIsAMan[0] = Int.random(in: 0...124)
-                }
-            BarRaceView(counter: thisIsAMan[1])
-                .onReceive(timer) { _ in
-                    thisIsAMan[1] = Int.random(in: 0...124)
-                }
-            BarRaceView(counter: thisIsAMan[2])
-                .onReceive(timer) { _ in
-                    thisIsAMan[2] = Int.random(in: 0...124)
-                }
+            ForEach(indices, id: \.self) { indice in
+                BarRaceView(counter: theseAreTheCounter[indice])
+                    .onReceive(timerRequest) { _ in
+                        let thisIsANewLimit = Int.random(in: 0...182)
+                        theseAreTheRemain[indice] = thisIsANewLimit - theseAreTheLimit[indice]
+                        theseAreTheLimit[indice] = thisIsANewLimit
+                    }
+                    .onReceive(timerBarRace) { _ in
+                        theseAreTheCounter[indice] += (theseAreTheRemain[indice] / Int(AConstantForAnimation))
+                    }
+            }
         }
     }
 }
