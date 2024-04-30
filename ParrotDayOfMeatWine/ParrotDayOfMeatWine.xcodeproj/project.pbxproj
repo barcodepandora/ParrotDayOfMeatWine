@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		567378672BE15CC6002D38D9 /* ParrotDayOfMeatWineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567378662BE15CC6002D38D9 /* ParrotDayOfMeatWineApp.swift */; };
+		567378692BE15CC6002D38D9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567378682BE15CC6002D38D9 /* ContentView.swift */; };
+		5673786B2BE15CCB002D38D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5673786A2BE15CCB002D38D9 /* Assets.xcassets */; };
+		5673786E2BE15CCB002D38D9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5673786D2BE15CCB002D38D9 /* Preview Assets.xcassets */; };
+		567378782BE15CCB002D38D9 /* ParrotDayOfMeatWineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567378772BE15CCB002D38D9 /* ParrotDayOfMeatWineTests.swift */; };
+		567378822BE15CCB002D38D9 /* ParrotDayOfMeatWineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567378812BE15CCB002D38D9 /* ParrotDayOfMeatWineUITests.swift */; };
+		567378842BE15CCB002D38D9 /* ParrotDayOfMeatWineUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567378832BE15CCB002D38D9 /* ParrotDayOfMeatWineUITestsLaunchTests.swift */; };
+		567378912BE1611F002D38D9 /* RaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567378902BE1611F002D38D9 /* RaceView.swift */; };
+		567378932BE1618C002D38D9 /* LifecycleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567378922BE1618C002D38D9 /* LifecycleManager.swift */; };
+		567378952BE16786002D38D9 /* BarRaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567378942BE16786002D38D9 /* BarRaceView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		567378742BE15CCB002D38D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5673785B2BE15CC5002D38D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 567378622BE15CC6002D38D9;
+			remoteInfo = ParrotDayOfMeatWine;
+		};
+		5673787E2BE15CCB002D38D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5673785B2BE15CC5002D38D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 567378622BE15CC6002D38D9;
+			remoteInfo = ParrotDayOfMeatWine;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		567378632BE15CC6002D38D9 /* ParrotDayOfMeatWine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParrotDayOfMeatWine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		567378662BE15CC6002D38D9 /* ParrotDayOfMeatWineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParrotDayOfMeatWineApp.swift; sourceTree = "<group>"; };
+		567378682BE15CC6002D38D9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5673786A2BE15CCB002D38D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5673786D2BE15CCB002D38D9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		567378732BE15CCB002D38D9 /* ParrotDayOfMeatWineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParrotDayOfMeatWineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		567378772BE15CCB002D38D9 /* ParrotDayOfMeatWineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParrotDayOfMeatWineTests.swift; sourceTree = "<group>"; };
+		5673787D2BE15CCB002D38D9 /* ParrotDayOfMeatWineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParrotDayOfMeatWineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		567378812BE15CCB002D38D9 /* ParrotDayOfMeatWineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParrotDayOfMeatWineUITests.swift; sourceTree = "<group>"; };
+		567378832BE15CCB002D38D9 /* ParrotDayOfMeatWineUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParrotDayOfMeatWineUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		567378902BE1611F002D38D9 /* RaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceView.swift; sourceTree = "<group>"; };
+		567378922BE1618C002D38D9 /* LifecycleManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifecycleManager.swift; sourceTree = "<group>"; };
+		567378942BE16786002D38D9 /* BarRaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarRaceView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		567378602BE15CC6002D38D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		567378702BE15CCB002D38D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5673787A2BE15CCB002D38D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5673785A2BE15CC5002D38D9 = {
+			isa = PBXGroup;
+			children = (
+				567378652BE15CC6002D38D9 /* ParrotDayOfMeatWine */,
+				567378762BE15CCB002D38D9 /* ParrotDayOfMeatWineTests */,
+				567378802BE15CCB002D38D9 /* ParrotDayOfMeatWineUITests */,
+				567378642BE15CC6002D38D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		567378642BE15CC6002D38D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				567378632BE15CC6002D38D9 /* ParrotDayOfMeatWine.app */,
+				567378732BE15CCB002D38D9 /* ParrotDayOfMeatWineTests.xctest */,
+				5673787D2BE15CCB002D38D9 /* ParrotDayOfMeatWineUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		567378652BE15CC6002D38D9 /* ParrotDayOfMeatWine */ = {
+			isa = PBXGroup;
+			children = (
+				567378662BE15CC6002D38D9 /* ParrotDayOfMeatWineApp.swift */,
+				567378682BE15CC6002D38D9 /* ContentView.swift */,
+				567378902BE1611F002D38D9 /* RaceView.swift */,
+				567378942BE16786002D38D9 /* BarRaceView.swift */,
+				567378922BE1618C002D38D9 /* LifecycleManager.swift */,
+				5673786A2BE15CCB002D38D9 /* Assets.xcassets */,
+				5673786C2BE15CCB002D38D9 /* Preview Content */,
+			);
+			path = ParrotDayOfMeatWine;
+			sourceTree = "<group>";
+		};
+		5673786C2BE15CCB002D38D9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5673786D2BE15CCB002D38D9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		567378762BE15CCB002D38D9 /* ParrotDayOfMeatWineTests */ = {
+			isa = PBXGroup;
+			children = (
+				567378772BE15CCB002D38D9 /* ParrotDayOfMeatWineTests.swift */,
+			);
+			path = ParrotDayOfMeatWineTests;
+			sourceTree = "<group>";
+		};
+		567378802BE15CCB002D38D9 /* ParrotDayOfMeatWineUITests */ = {
+			isa = PBXGroup;
+			children = (
+				567378812BE15CCB002D38D9 /* ParrotDayOfMeatWineUITests.swift */,
+				567378832BE15CCB002D38D9 /* ParrotDayOfMeatWineUITestsLaunchTests.swift */,
+			);
+			path = ParrotDayOfMeatWineUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		567378622BE15CC6002D38D9 /* ParrotDayOfMeatWine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 567378872BE15CCB002D38D9 /* Build configuration list for PBXNativeTarget "ParrotDayOfMeatWine" */;
+			buildPhases = (
+				5673785F2BE15CC6002D38D9 /* Sources */,
+				567378602BE15CC6002D38D9 /* Frameworks */,
+				567378612BE15CC6002D38D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParrotDayOfMeatWine;
+			productName = ParrotDayOfMeatWine;
+			productReference = 567378632BE15CC6002D38D9 /* ParrotDayOfMeatWine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		567378722BE15CCB002D38D9 /* ParrotDayOfMeatWineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5673788A2BE15CCB002D38D9 /* Build configuration list for PBXNativeTarget "ParrotDayOfMeatWineTests" */;
+			buildPhases = (
+				5673786F2BE15CCB002D38D9 /* Sources */,
+				567378702BE15CCB002D38D9 /* Frameworks */,
+				567378712BE15CCB002D38D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				567378752BE15CCB002D38D9 /* PBXTargetDependency */,
+			);
+			name = ParrotDayOfMeatWineTests;
+			productName = ParrotDayOfMeatWineTests;
+			productReference = 567378732BE15CCB002D38D9 /* ParrotDayOfMeatWineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5673787C2BE15CCB002D38D9 /* ParrotDayOfMeatWineUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5673788D2BE15CCB002D38D9 /* Build configuration list for PBXNativeTarget "ParrotDayOfMeatWineUITests" */;
+			buildPhases = (
+				567378792BE15CCB002D38D9 /* Sources */,
+				5673787A2BE15CCB002D38D9 /* Frameworks */,
+				5673787B2BE15CCB002D38D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5673787F2BE15CCB002D38D9 /* PBXTargetDependency */,
+			);
+			name = ParrotDayOfMeatWineUITests;
+			productName = ParrotDayOfMeatWineUITests;
+			productReference = 5673787D2BE15CCB002D38D9 /* ParrotDayOfMeatWineUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5673785B2BE15CC5002D38D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					567378622BE15CC6002D38D9 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					567378722BE15CCB002D38D9 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 567378622BE15CC6002D38D9;
+					};
+					5673787C2BE15CCB002D38D9 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 567378622BE15CC6002D38D9;
+					};
+				};
+			};
+			buildConfigurationList = 5673785E2BE15CC5002D38D9 /* Build configuration list for PBXProject "ParrotDayOfMeatWine" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5673785A2BE15CC5002D38D9;
+			productRefGroup = 567378642BE15CC6002D38D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				567378622BE15CC6002D38D9 /* ParrotDayOfMeatWine */,
+				567378722BE15CCB002D38D9 /* ParrotDayOfMeatWineTests */,
+				5673787C2BE15CCB002D38D9 /* ParrotDayOfMeatWineUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		567378612BE15CC6002D38D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5673786E2BE15CCB002D38D9 /* Preview Assets.xcassets in Resources */,
+				5673786B2BE15CCB002D38D9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		567378712BE15CCB002D38D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5673787B2BE15CCB002D38D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5673785F2BE15CC6002D38D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				567378932BE1618C002D38D9 /* LifecycleManager.swift in Sources */,
+				567378692BE15CC6002D38D9 /* ContentView.swift in Sources */,
+				567378912BE1611F002D38D9 /* RaceView.swift in Sources */,
+				567378952BE16786002D38D9 /* BarRaceView.swift in Sources */,
+				567378672BE15CC6002D38D9 /* ParrotDayOfMeatWineApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5673786F2BE15CCB002D38D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				567378782BE15CCB002D38D9 /* ParrotDayOfMeatWineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		567378792BE15CCB002D38D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				567378842BE15CCB002D38D9 /* ParrotDayOfMeatWineUITestsLaunchTests.swift in Sources */,
+				567378822BE15CCB002D38D9 /* ParrotDayOfMeatWineUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		567378752BE15CCB002D38D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 567378622BE15CC6002D38D9 /* ParrotDayOfMeatWine */;
+			targetProxy = 567378742BE15CCB002D38D9 /* PBXContainerItemProxy */;
+		};
+		5673787F2BE15CCB002D38D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 567378622BE15CC6002D38D9 /* ParrotDayOfMeatWine */;
+			targetProxy = 5673787E2BE15CCB002D38D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		567378852BE15CCB002D38D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		567378862BE15CCB002D38D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		567378882BE15CCB002D38D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ParrotDayOfMeatWine/Preview Content\"";
+				DEVELOPMENT_TEAM = F6KDBC2B2W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uzupis.ParrotDayOfMeatWine.ParrotDayOfMeatWine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		567378892BE15CCB002D38D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ParrotDayOfMeatWine/Preview Content\"";
+				DEVELOPMENT_TEAM = F6KDBC2B2W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uzupis.ParrotDayOfMeatWine.ParrotDayOfMeatWine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5673788B2BE15CCB002D38D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F6KDBC2B2W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uzupis.ParrotDayOfMeatWine.ParrotDayOfMeatWineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParrotDayOfMeatWine.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ParrotDayOfMeatWine";
+			};
+			name = Debug;
+		};
+		5673788C2BE15CCB002D38D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F6KDBC2B2W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uzupis.ParrotDayOfMeatWine.ParrotDayOfMeatWineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParrotDayOfMeatWine.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ParrotDayOfMeatWine";
+			};
+			name = Release;
+		};
+		5673788E2BE15CCB002D38D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F6KDBC2B2W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uzupis.ParrotDayOfMeatWine.ParrotDayOfMeatWineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ParrotDayOfMeatWine;
+			};
+			name = Debug;
+		};
+		5673788F2BE15CCB002D38D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F6KDBC2B2W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uzupis.ParrotDayOfMeatWine.ParrotDayOfMeatWineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ParrotDayOfMeatWine;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5673785E2BE15CC5002D38D9 /* Build configuration list for PBXProject "ParrotDayOfMeatWine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				567378852BE15CCB002D38D9 /* Debug */,
+				567378862BE15CCB002D38D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		567378872BE15CCB002D38D9 /* Build configuration list for PBXNativeTarget "ParrotDayOfMeatWine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				567378882BE15CCB002D38D9 /* Debug */,
+				567378892BE15CCB002D38D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5673788A2BE15CCB002D38D9 /* Build configuration list for PBXNativeTarget "ParrotDayOfMeatWineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5673788B2BE15CCB002D38D9 /* Debug */,
+				5673788C2BE15CCB002D38D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5673788D2BE15CCB002D38D9 /* Build configuration list for PBXNativeTarget "ParrotDayOfMeatWineUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5673788E2BE15CCB002D38D9 /* Debug */,
+				5673788F2BE15CCB002D38D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5673785B2BE15CC5002D38D9 /* Project object */;
+}
